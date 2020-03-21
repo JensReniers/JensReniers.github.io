@@ -348,7 +348,6 @@ nav ul li a {
 }
 
 .services-carousel .owl-dot.active {
-  visibility: hidden;
   background-color: #EE685B;
 }
 
