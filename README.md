@@ -1,2 +1,2 @@
-# JensReniers.github.io
+# Website
 Website van Jens Reniers
