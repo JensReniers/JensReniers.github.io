@@ -1,13 +1,3 @@
-/**
-* Template Name: Folio - v2.0.1
-* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #ffffff;
   color: #898989;
@@ -453,6 +443,10 @@ nav ul li a {
   position: relative;
 }
 
+.blog-photo {
+  max-width: 100%;
+}
+
 .journal-block .journal-info .journal-txt h4 a {
   display: block;
   font-size: 19px;
@@ -738,10 +732,6 @@ blockquote {
   font-weight: 500;
   margin-top: 0;
   text-transform: uppercase;
-}
-
-.credits {
-  font-size: 13px;
 }
 
 /** Width between 1200x to 0
