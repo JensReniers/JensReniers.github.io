@@ -408,6 +408,13 @@ nav ul li a {
   max-width: 100%;
 }
 
+.activity {
+  float: left;
+  margin-bottom: 10px;
+  overflow: hidden;
+  min-height: 410px;
+}
+
 /*--------------------------------------------------------------
 # Journal
 --------------------------------------------------------------*/
