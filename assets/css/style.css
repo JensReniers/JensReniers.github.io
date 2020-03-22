@@ -147,9 +147,6 @@ p {
   margin-bottom: 30px;
 }
 
-/*--------------------------------------------------------------
-# Navbar
---------------------------------------------------------------*/
 nav {
   position: fixed;
   background: #fff;
@@ -207,9 +204,6 @@ nav ul li a {
   color: #afafaf;
 }
 
-/*--------------------------------------------------------------
-# Hero
---------------------------------------------------------------*/
 #hero {
   background: url("../img/home-bg.jpg") repeat scroll center center/cover;
   height: 100vh;
@@ -253,9 +247,6 @@ nav ul li a {
   font-size: 15px;
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*  Aout
-/*-----------------------------------------------------------------------------------*/
 #about {
   width: 100%;
   height: auto;
@@ -290,9 +281,6 @@ nav ul li a {
   text-align: left;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
 #services {
   background: #f7f7f7;
   position: relative;
@@ -355,9 +343,6 @@ nav ul li a {
   display: none;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
 #portfolio {
   position: relative;
   padding-bottom: 50px;
@@ -409,18 +394,14 @@ nav ul li a {
 
 .activity {
   float: left;
-  margin-bottom: 10px;
   overflow: hidden;
-  min-height: 410px;
+  min-height: 400px;
 }
 
 .custom-text {
   text-align: center;
 }
 
-/*--------------------------------------------------------------
-# Journal
---------------------------------------------------------------*/
 #journal, #journal-blog {
   height: auto;
   width: 100%;
@@ -478,9 +459,6 @@ nav ul li a {
   line-height: 24px;
 }
 
-/*--------------------------------------------------------------
-# Journal
---------------------------------------------------------------*/
 #contact {
   height: auto;
   width: 100%;
@@ -501,83 +479,11 @@ nav ul li a {
   margin-bottom: 5px;
 }
 
-.php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 20px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
-/*  Navbar fixd page */
 .subpage-nav {
   display: block !important;
   position: relative;
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*  /* Single page */
-/*-----------------------------------------------------------------------------------*/
-/* main content */
 .main-content {
   background: #f7f7f7;
 }
@@ -628,64 +534,12 @@ nav ul li a {
   margin-left: 5px;
 }
 
-/* Commonts */
-.comments {
-  background: #fff;
-}
-
-.entry-comments h6 {
-  margin-right: 10px;
-  font-size: 13px;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-}
-
-.entry-comments-item {
-  margin-top: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #f2f2f2;
-}
-
-.entry-comments-avatar {
-  position: absolute;
-  display: block;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-}
-
-.entry-comments-body {
-  padding-left: 86px;
-}
-
-.entry-comments-author {
-  margin-right: 10px;
-  font-size: 13px;
-  color: #292929;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-}
-
 .rep {
   font-size: 13px;
   color: #292929;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: capitalize;
-}
-
-.entry-comments span a {
-  font-size: 13px;
-  color: #999;
-}
-
-.entry-comments-reply {
-  padding-left: 10%;
-}
-
-/* Commonts form */
-.cmt {
-  background: #fff;
 }
 
 blockquote {
@@ -696,9 +550,6 @@ blockquote {
   border-left: 4px solid #EE685B;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 #footer {
   background: #f7f7f7;
   padding-top: 50px;
